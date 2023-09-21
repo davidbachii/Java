@@ -29,31 +29,92 @@ public class Variables {
     // Variable de tipo cadena de caracteres, puede almacenar texto
     String cadena;
 
-    // Variable de tipo arreglo de enteros, puede almacenar múltiples valores enteros
-    int[] arregloEnteros;
+  
 
     
 
     // Variable de tipo constante, su valor no puede ser cambiado después de la asignación
     final int CONSTANTE = 10;
+    // No se puede cambiar el valor de una constante
+    // ejemplo.CONSTANTE = 20; // Esto daría un error de compilación
     
     //Utilizada para indicar que una variable o un método es un método de clase. Es decir que en otra clase no podemos utilizar esa variable
     static int numero = 10; 
 
-    public static void main(String[] args) {
-        // Ejemplo de uso de las variables
-        Variables ejemplo = new Variables();
-        ejemplo.entero = 5;
-        ejemplo.decimalSimple = 3.14f;
-        ejemplo.decimalDoble = 2.71828;
-        ejemplo.caracter = 'A';
-        ejemplo.booleano = true;
-        ejemplo.cadena = "Hola";
-        ejemplo.arregloEnteros = new int[]{1, 2, 3};
-       
-        System.out.println(ejemplo.entero);
-        // No se puede cambiar el valor de una constante
-        // ejemplo.CONSTANTE = 20; // Esto daría un error de compilación
+    public Variables(int entero, float decimalSimple, double decimalDoble, char caracter, boolean booleano, String cadena) {
+        this.entero = entero;
+        this.decimalSimple = decimalSimple;
+        this.decimalDoble = decimalDoble;
+        this.caracter = caracter;
+        this.booleano = booleano;
+        this.cadena = cadena;
+        
     }
+
+    
+
+    
+
+    
+    public int getEntero() {
+        return entero;
+    }
+
+    public void setEntero(int entero) {
+        this.entero = entero;
+    }
+
+    public float getDecimalSimple() {
+        return decimalSimple;
+    }
+
+    public void setDecimalSimple(float decimalSimple) {
+        this.decimalSimple = decimalSimple;
+    }
+
+    public double getDecimalDoble() {
+        return decimalDoble;
+    }
+
+    public void setDecimalDoble(double decimalDoble) {
+        this.decimalDoble = decimalDoble;
+    }
+
+    public char getCaracter() {
+        return caracter;
+    }
+
+    public void setCaracter(char caracter) {
+        this.caracter = caracter;
+    }
+
+    public boolean isBooleano() {
+        return booleano;
+    }
+
+    public void setBooleano(boolean booleano) {
+        this.booleano = booleano;
+    }
+
+    public String getCadena() {
+        return cadena;
+    }
+
+    public void setCadena(String cadena) {
+        this.cadena = cadena;
+    }
+
+    
+
+    public static int getNumero() {
+        return numero;
+    }
+
+    public static void setNumero(int numero) {
+        Variables.numero = numero;
+    }
+    
+    
+   
 }
 
