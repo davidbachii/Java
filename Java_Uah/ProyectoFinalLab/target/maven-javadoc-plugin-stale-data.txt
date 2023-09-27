@@ -1,0 +1,72 @@
+@options
+@argfile
+-encoding
+'UTF-8'
+-protected
+-source
+'15'
+-sourcepath
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2021. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'ProyectoFinalLab 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/15/docs/api' 'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'ProyectoFinalLab 1.0-SNAPSHOT API'
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/src/main/java/poo/ClasesDominio/Administrador.java'
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/src/main/java/poo/ClasesDominio/Capitulo.java'
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/src/main/java/poo/ClasesDominio/Cliente.java'
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/src/main/java/poo/ClasesDominio/Contenido.java'
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/src/main/java/poo/ClasesDominio/GuardarLeerFicheros.java'
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/src/main/java/poo/ClasesDominio/JavaFlix.java'
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/src/main/java/poo/ClasesDominio/Pelicula.java'
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/src/main/java/poo/ClasesDominio/Serie.java'
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/src/main/java/poo/ClasesDominio/Suscripcion.java'
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/src/main/java/poo/ClasesDominio/Tarjeta.java'
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/src/main/java/poo/Interfaces/Fondo.java'
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/src/main/java/poo/Interfaces/GestionPeliculas.java'
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/src/main/java/poo/Interfaces/GestionSeries.java'
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/src/main/java/poo/Interfaces/GestionUsuarios.java'
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/src/main/java/poo/Interfaces/PanelAdmin.java'
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/src/main/java/poo/Interfaces/PanelBusquedaPelis.java'
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/src/main/java/poo/Interfaces/PanelBusquedaSerie.java'
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/src/main/java/poo/Interfaces/PanelCuenta.java'
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/src/main/java/poo/Interfaces/PanelInicioSesion.java'
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/src/main/java/poo/Interfaces/PanelListaFav.java'
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/src/main/java/poo/Interfaces/PanelRegistro.java'
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/src/main/java/poo/Interfaces/PanelSuscrispcion.java'
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/src/main/java/poo/Interfaces/PanelTransparente.java'
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/src/main/java/poo/Interfaces/PanelUsuario.java'
+'C:/Users/Alejandro/Desktop/Rodriguez_Ramirez_20_21/ProyectoFinalLab/src/main/java/poo/Interfaces/PanelUsuarioBuscar.java'
+C:\Users\Alejandro\Desktop\Rodriguez_Ramirez_20_21\ProyectoFinalLab\src\main\java = 1623584320000
+C:\Users\Alejandro\Desktop\Rodriguez_Ramirez_20_21\ProyectoFinalLab\target\site\apidocs\allclasses-index.html = 1623606115060
+C:\Users\Alejandro\Desktop\Rodriguez_Ramirez_20_21\ProyectoFinalLab\target\site\apidocs\allpackages-index.html = 1623606115065
+C:\Users\Alejandro\Desktop\Rodriguez_Ramirez_20_21\ProyectoFinalLab\target\site\apidocs\constant-values.html = 1623606114722
+C:\Users\Alejandro\Desktop\Rodriguez_Ramirez_20_21\ProyectoFinalLab\target\site\apidocs\deprecated-list.html = 1623606114971
+C:\Users\Alejandro\Desktop\Rodriguez_Ramirez_20_21\ProyectoFinalLab\target\site\apidocs\element-list = 1623606114682
+C:\Users\Alejandro\Desktop\Rodriguez_Ramirez_20_21\ProyectoFinalLab\target\site\apidocs\help-doc.html = 1623606115073
+C:\Users\Alejandro\Desktop\Rodriguez_Ramirez_20_21\ProyectoFinalLab\target\site\apidocs\index-all.html = 1623606115041
+C:\Users\Alejandro\Desktop\Rodriguez_Ramirez_20_21\ProyectoFinalLab\target\site\apidocs\index.html = 1623606114977
+C:\Users\Alejandro\Desktop\Rodriguez_Ramirez_20_21\ProyectoFinalLab\target\site\apidocs\jquery-ui.overrides.css = 1623606115134
+C:\Users\Alejandro\Desktop\Rodriguez_Ramirez_20_21\ProyectoFinalLab\target\site\apidocs\member-search-index.js = 1623606115034
+C:\Users\Alejandro\Desktop\Rodriguez_Ramirez_20_21\ProyectoFinalLab\target\site\apidocs\module-search-index.js = 1623606115029
+C:\Users\Alejandro\Desktop\Rodriguez_Ramirez_20_21\ProyectoFinalLab\target\site\apidocs\overview-summary.html = 1623606115068
+C:\Users\Alejandro\Desktop\Rodriguez_Ramirez_20_21\ProyectoFinalLab\target\site\apidocs\overview-tree.html = 1623606114960
+C:\Users\Alejandro\Desktop\Rodriguez_Ramirez_20_21\ProyectoFinalLab\target\site\apidocs\package-search-index.js = 1623606115030
+C:\Users\Alejandro\Desktop\Rodriguez_Ramirez_20_21\ProyectoFinalLab\target\site\apidocs\script.js = 1623606115084
+C:\Users\Alejandro\Desktop\Rodriguez_Ramirez_20_21\ProyectoFinalLab\target\site\apidocs\search.js = 1623606115088
+C:\Users\Alejandro\Desktop\Rodriguez_Ramirez_20_21\ProyectoFinalLab\target\site\apidocs\serialized-form.html = 1623606114782
+C:\Users\Alejandro\Desktop\Rodriguez_Ramirez_20_21\ProyectoFinalLab\target\site\apidocs\stylesheet.css = 1623606115081
+C:\Users\Alejandro\Desktop\Rodriguez_Ramirez_20_21\ProyectoFinalLab\target\site\apidocs\tag-search-index.js = 1623606115037
+C:\Users\Alejandro\Desktop\Rodriguez_Ramirez_20_21\ProyectoFinalLab\target\site\apidocs\type-search-index.js = 1623606115032
