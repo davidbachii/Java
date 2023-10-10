@@ -21,8 +21,8 @@ public class PruebaPrototype1 {
         juan = new Persona("15664386T", "Juan", f1, "calle", tfnos);
 
         // Crea persona luis con constructor copia.
-        luis = new Persona(juan);
-        luis.setDni("22879654X");// Modifica DNI.
+        luis = new Persona(juan); //Creamos a Luis clonando los metodo de juan
+        luis.setDni("22879654X");// Modifica DNI. ya que ahora mismo tienen los mismos 
         luis.getTfnos().add("968559977"); // Añade teléfono.
         luis.getTfnos().add("626776644"); // Añade teléfono.
         luis.setFechaNac(new Fecha(1, 1, 1971)); // Modifica fecha de nacimiento.

@@ -44,7 +44,7 @@ public class Persona implements Cloneable {
         direccion = p_direccion;
         tfnos = p_tfnos;
     }
-
+    //En esta ya no esta como en la version 1 nuestro segundo constructor
     /**
      * Devuelve el DNI de la persona.
      *
@@ -147,6 +147,8 @@ public class Persona implements Cloneable {
      *
      * @return Objeto clonado.
      */
+    
+    //Esto es lo que cambia lo proporciona el propio java, y es el mas facil vamos a usar este
     @Override
     public Object clone() {
         Persona otra = null;
@@ -162,4 +164,6 @@ public class Persona implements Cloneable {
 
         return otra;
     }
+    
+    
 }

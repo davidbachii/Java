@@ -50,6 +50,9 @@ public class Persona {
      *
      * @param otra Objeto de tipo Persona que se va a copiar.
      */
+    
+    //Este es el metodo clave ya que en el main luego una vez creada juan , creamos a luis y solo le pasamos 
+    //a juan por lo que se van a clonar los datos de una persona a otra
     public Persona(Persona otra) {
         dni = otra.getDni();
         nombre = otra.getNombre();
