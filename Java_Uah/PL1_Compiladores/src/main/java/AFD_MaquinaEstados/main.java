@@ -5,6 +5,7 @@
  */
 package AFD_MaquinaEstados;
 
+import static AFD_MaquinaEstados.AFD.generarCadenas;
 import java.util.Scanner;
 
 /**
@@ -83,8 +84,34 @@ public class main {
 
                 case 3:
                     
+                    if(cadenaSeleccionada == true){
+                      
+                         System.out.println("Ingrese la cantidad de 'b':");
+                         int bCount = scanner.nextInt();
+
+                        System.out.println("Ingrese la cantidad de 'a':");
+                        int aCount = scanner.nextInt();
+
+                        System.out.println("Ingrese la cantidad de 'c':");
+                        int cCount = scanner.nextInt();
+
+                        System.out.println("Ingrese la cantidad de 'h':");
+                        int hCount = scanner.nextInt();
+
+                        System.out.println("Ingrese la cantidad de 'i':");
+                        int iCount = scanner.nextInt();
+
+                        System.out.println("¿Desea incluir 'ller?' (1 para Sí, 0 para No):");
+                        int llerOption = scanner.nextInt();
+
+                        generarCadenas(bCount, aCount, cCount, hCount, iCount, llerOption,me);
+                        
                     
-                    break;
+                        break;
+                    }else{
+                        System.out.println("Todavid no se ha seleccionado ninguna cadena.");
+                        break;
+                    }
 
                 case 4:
                     System.out.println("¡Hasta luego!");

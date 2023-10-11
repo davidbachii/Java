@@ -108,4 +108,63 @@ public class AFD {
         iniMatriz();
         cargarMatriz();
     }
+    
+    
+    
+
+    public static void generarCadenas(int bCount, int aCount, int cCount, int hCount, int iCount, int ller, MaquinaEstados me) {
+          
+
+        // Generar cadenas válidas según las cantidades proporcionadas
+        for (int i = 0; i <= bCount; i++) {
+            for (int j = 0; j <= aCount; j++) {
+                for (int k = 0; k <= cCount; k++) {
+                    for (int l = 0; l <= hCount; l++) {
+                        for (int m = 0; m <= iCount; m++) {
+                            for (int n = 0; n <= ller; n++) { // 0 representa la ausencia de "ller?", 1 representa su presencia
+                                String cadena = generarCadena(i, j, k, l, m, n);
+                                if (me.compruebaCadena(cadena)) {
+                                    System.out.println("Cadena válida: " + cadena);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    public static String generarCadena(int bCount, int aCount, int cCount, int hCount, int iCount, int ller) {
+        StringBuilder cadena = new StringBuilder();
+
+        // Agregar 'b' y 'a'
+        for (int i = 0; i < bCount; i++) {
+            cadena.append("b");
+        }
+        for (int i = 0; i < aCount; i++) {
+            cadena.append("a");
+        }
+
+        // Agregar 'c', 'h' o 'i'
+        for (int i = 0; i < cCount; i++) {
+            cadena.append("c");
+        }
+        for (int i = 0; i < hCount; i++) {
+            cadena.append("h");
+        }
+        for (int i = 0; i < iCount; i++) {
+            cadena.append("i");
+        }
+
+        // Agregar 'l', 'l', 'e', 'r' y '?'
+        if (ller == 1) {
+            cadena.append("ller?");
+        }
+
+        return cadena.toString();
+    }
 }
+
+    
+    
+
