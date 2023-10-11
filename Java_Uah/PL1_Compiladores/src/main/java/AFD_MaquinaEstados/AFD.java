@@ -17,7 +17,7 @@ public class AFD {
     
     
     //Declaracion de atributos
-     private ArrayList<Character> alfabeto ;
+     private ArrayList<Character> alfabeto;
      private ArrayList<Integer> estados;
      private int estadoInicial;
      private ArrayList<Integer> estadosFinales;
@@ -25,12 +25,11 @@ public class AFD {
      
      
 
-    public AFD(int estadoInicial) {
+    public AFD() {
         this.alfabeto = new ArrayList<>();
         this.estados = new ArrayList<>();
-        this.estadoInicial = estadoInicial;
         this.estadosFinales = new ArrayList<>();
-        this.matriz = new HashMap<>();;
+        this.matriz = new HashMap<>();
         arrancarAutomata();
         
     }
@@ -74,11 +73,11 @@ public class AFD {
         matriz.get(2).put('e',6); //Para cuando este en el estado 2 si viene una E, salta al estado 6
         matriz.get(3).put('b',4); //Para cuando este en el estado 3 si viene una B, salta al estado 4
         matriz.get(4).put('a',5); //Para cuando este en el estado 4 si viene una A, salta al estado 5
-        matriz.get(5).put('b',5); //Para cuando este en el estado 5 si viene una B, salta al estado 5
+        matriz.get(5).put('a',5); //Para cuando este en el estado 5 si viene una B, salta al estado 5
         matriz.get(5).put('c',10); //Para cuando este en el estado 5 si viene una C, salta al estado 10
         matriz.get(6).put('r',7); //Para cuando este en el estado 6 si viene una R, salta al estado 7
         matriz.get(8).put('l',1);  //Para cuando este en el estado 8 si viene una L, salta al estado 1
-        matriz.get(9).put('b',1); //Para cuando este en el estado 9 si viene una B, salta al estado 1
+        matriz.get(9).put('l',1); //Para cuando este en el estado 9 si viene una B, salta al estado 1
         matriz.get(9).put('i',9); //Para cuando este en el estado 9 si viene una I, salta al estado 9
         matriz.get(10).put('h',0); //Para cuando este en el estado 10 si viene una H, salta al estado 0
         matriz.get(10).put('i',9); //Para cuando este en el estado 10 si viene una I, salta al estado 9

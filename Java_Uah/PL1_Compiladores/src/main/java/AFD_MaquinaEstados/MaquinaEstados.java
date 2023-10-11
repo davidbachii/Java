@@ -19,6 +19,8 @@ public class MaquinaEstados {
         this.automata = automata;
         inicializar();
     }
+
+    
     
     
     
@@ -51,14 +53,25 @@ public class MaquinaEstados {
         }else{
             for(int i=0;i< cadena.length();i++){
                 acepta(cadena.charAt(i));
-                if(estadoActual == -1 || (this.isFinal()==false && i==cadena.length())){ //Si no estoy en el estado final y se han leido todos los caracteres
+                 
+                if(estadoActual == -1 || (this.isFinal()==false && i==cadena.length()-1)){ //Si no estoy en el estado final y se han leido todos los caracteres
                     esValida = false;
-                    break;
                 }
+  
+                  
+               
             
             }
         }
         return esValida;
     }
     
+    
+    public AFD getAutomata() {
+        return automata;
+    }
+
+    public void setAutomata(AFD automata) {
+        this.automata = automata;
+    }
 }
