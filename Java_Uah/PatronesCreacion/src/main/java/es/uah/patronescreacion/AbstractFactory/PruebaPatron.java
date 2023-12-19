@@ -15,6 +15,8 @@ public class PruebaPatron {
      * @param args
      * @throws IOException
      */
+
+
     public static void main(String args[]) throws IOException {
         BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
         FechaFactory factory;

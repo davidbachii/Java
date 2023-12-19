@@ -1,0 +1,82 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 19 dic 2023, 17:23:42
+    Author     : david
+*/
+/* BEGIN: F1 Menu Styles */
+
+/* Reset de Estilos */
+body, h1, h2, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    color: #0000ff;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 50%;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Estilos para los selects */
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-right: 25px;
+    background: url('flecha-select.png') no-repeat center right;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media screen and (max-width: 600px) {
+    form {
+        width: 80%;
+    }
+}
