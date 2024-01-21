@@ -34,13 +34,14 @@ public class FechaUS {
     /**
      * Constructor
      *
-     * @param date Fecha en formato de USA: MM,DD,AAAA.
+     * @param date Fecha en formato de USA: MM,DD,AAAA. AAAA-MM-DD
+     *
      */
     public FechaUS(String date) {
-        String[] st = date.split(",");        
-        String mm = st[0];
-        String dd = st[1];
-        String aa = st[2];
+        String[] st = date.split("-");
+        String aa = st[0];
+        String mm = st[1];
+        String dd = st[2];
 
         this.day = Integer.parseInt(dd);
         this.month = Integer.parseInt(mm);
@@ -54,7 +55,7 @@ public class FechaUS {
      */
     @Override
     public String toString() {
-        return month + "," + day + "," + year;
+        return year + "-" + month + "-" + day;
     }
 
     /**

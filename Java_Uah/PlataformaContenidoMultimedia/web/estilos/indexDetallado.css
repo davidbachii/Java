@@ -1,0 +1,99 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 1 ene 2024, 23:15:37
+    Author     : david
+*/
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.search-bar input {
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.user-profile a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr; /* Cambiado para que solo haya una columna */
+    grid-gap: 20px;
+}
+
+.pelicula {
+    display: flex; /* Añadido para hacer que los elementos hijos de .pelicula se alineen en una fila */
+    flex-wrap: wrap; /* Añadido para permitir que los elementos se envuelvan a la siguiente línea si no hay suficiente espacio */
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #333;
+}
+
+.pelicula h2 {
+    margin: 0 0 10px;
+    color: #ffffff;
+}
+
+.pelicula img {
+    width: 30%; /* Ajustado al tamaño que desees para la imagen */
+    height: auto;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.datos {
+    width: 70%; /* Ajustado al tamaño que desees para los datos */
+}
+
+.datos div {
+    color: lightgray;
+}
+
+.datos div span {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.sinopsis {
+    width: 100%; /* Asegúrate de que la sinopsis ocupe todo el ancho */
+    order: 2; /* Añadido para asegurarte de que la sinopsis se muestre después de la imagen y los datos */
+    color: lightgray;
+}
+
+.comentarios {
+    width: 100%;
+    margin-top: 20px;
+}
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+label, textarea, input[type="number"], input[type="date"] {
+  display: block; /* Asegúrate de que cada elemento se muestre en su propia línea */
+  margin-bottom: 10px; /* Añade un poco de espacio debajo de cada elemento */
+}
