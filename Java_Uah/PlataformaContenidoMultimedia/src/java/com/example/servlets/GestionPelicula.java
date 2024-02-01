@@ -87,7 +87,8 @@ public class GestionPelicula extends HttpServlet {
                 } else {
                     System.out.println("Edad no valida");
                 }
-
+                
+                //PATRON OBSERVAOR
                 // Registra observadores
                 pelicula.agregarObservador(new EstadisticasPeliculas());
 
@@ -96,7 +97,9 @@ public class GestionPelicula extends HttpServlet {
 
                 // Notificar a los observadores
                 pelicula.notificarObservadoresCreacion(pelicula);
-
+                
+                
+                //PATRON DECORATOR
                 // Mostrar la información de la película decorada
                 peliculaDecorada.mostrarInformacion();
 

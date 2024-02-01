@@ -13,6 +13,8 @@
         <link rel="stylesheet" type="text/css" href="estilos/panelAdmin.css">
     </head>
     <body>
+
+        <% if (session.getAttribute("usuario") != null) { %>
         <header>
             <div class="navbar">
                 <a href="gestionPeliculas.jsp">Gestión de Películas</a>
@@ -39,5 +41,9 @@
 
             <input type="submit" value="Buscar">
         </form>
+
+        <% } else { %>
+        <p>Acesso restringido.</p>
+        <% } %>
     </body>
 </html>

@@ -9,7 +9,7 @@ package com.example.model;
  * @author david
  */
 
-// Interfaz Componente
+// Interfaz Componente DEL PATRON DECORATOR
 public interface PeliculaComponente {
     void mostrarInformacion();
 }
